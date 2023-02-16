@@ -26,12 +26,12 @@ for user in users:
                                'pages': int(list_books[i]['Pages']),
                                'genre': list_books[i]['Genre']
                                })
-        data.append({'name': users[j]['name'],
-                     'gender': users[j]['gender'],
-                     'address': users[j]['address'],
-                     'age': users[j]['age'],
-                     'books': books_internal})
         i = i + len(users)
+    data.append({'name': users[j]['name'],
+                 'gender': users[j]['gender'],
+                 'address': users[j]['address'],
+                 'age': users[j]['age'],
+                 'books': books_internal})
     j = j + 1
 
 

@@ -35,5 +35,5 @@ for user in users:
     j = j + 1
 
 
-with open('reference.json', 'w') as f:
+with open('result.json', 'w') as f:
     f.write(json.dumps(data, indent=4))
